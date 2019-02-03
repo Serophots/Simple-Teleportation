@@ -1,0 +1,28 @@
+prefix: '&8[&c&lTest&7MC&8]' #{prefix} will be replaced with this
+incorrectArgs: '{prefix} &cIncorrect command usage! Please check the correct way to use the command!' #If a user types a command incorrectly, they will be shown this message
+
+coreCommands:
+  tpoPerm: 'server.tpo.run' #Permission to use command /tpa
+  tpaPerm: 'server.tpa.run' #Permission to use command /tpa
+  tpyesPerm: 'server.tpyes.run' #Permission to accept a teleport request
+  tpoherePerm: 'server.tpohere.run' #Permission to use /tpohere
+  tpnoPerm: 'server.tpno.run' #Permission to deny a teleport requesy
+  tpNoPerm: '{prefix} &cYou do not have permission to run this command!' #Message displayed if player dosnt have permission
+  tpoMessage: '{prefix} &aYou have teleported to &4{target}'
+  tpohereMessage: '{prefix} &4{target}&a has been teleported to you!'
+  tpaMessage: '{prefix} &aYou have sent a teleport request to &4{target}!&a They have &c{timer} seconds&a to accept! Use &c/tpcancel&a to stop the teleportation at any second!'
+  tpaHereMessage: '{prefix} &aYou have sent a teleport here request to &4{target}!&a They have &c{timer} seconds&a to accept! Use &c/tpcancel&a to stop the teleportation at any second!'
+  tpaWarmup: 5 #How long a user has to wait between the teleport request being accepted and being teleported
+  tpaCooldown: 30 #How long a user has to wait between sending teleport requests
+  tpaExpiration: 90 #If a teleport request isnt accepted in this time, it will expire
+  tpaExpirationMessage: '{prefix} &cYour &4teleportation&c request to &4{target}&c has &4expired!'
+  tpyesNotValid: '{prefix} &cYou have no valid teleport request!'
+  tpaCooldownMessage: '{prefix} &cYou need to wait &4{timer} &cseconds before you can run this command again!'
+  tpaHereMessageToTarget: '{prefix} &4{player} &ahas requested for you to &cteleport to him&a! Use &c/tpaccept&a or &c/tpyes &ato accept it! Use &c/tpno &aor &c/tpdeny &ato decline it!'
+  tpaMessageToTarget: '{prefix} &4{player} &ahas requested to &cteleport&a to you! Use &c/tpaccept&a or &c/tpyes &ato accept it! Use &c/tpno &aor &c/tpdeny &ato decline it!'
+  tpyesMessage: '{prefix} &aYou have accepted &c{target} &ateleport request! Please wait &c{timer}&a seconds for them to teleport!'
+  tpnoMessage: '{prefix} &aYou have declined the teleport request!'
+  tpyesMessageToTarget: '{prefix} &4{player} &caccepted &ayour teleport request! Teleporting in &c{timer}&a seconds'
+  tpUnknownPlayer: '{prefix} &cThat player is not online!'
+  tpaMoved: '{prefix} &c{player} moved! Teleportation canceled!'
+  teleportToSelf: '{prefix} &cYou cannot teleport to yourself!'

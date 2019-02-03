@@ -1,0 +1,14 @@
+name: SimpleTpa
+version: @version@
+main: me.Serophots.SimpleTpa.Main
+commands:
+  back:
+  setspawn:
+  spawn:
+  tpa:
+  tpaccept:
+  tpahere:
+  tpall:
+  tpdecline:
+  tpo:
+  tpohere:
